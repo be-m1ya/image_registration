@@ -39,6 +39,6 @@ if __name__ == "__main__":
     def_list.print_rectangle(img1,img1_posi,(0,0,255),dir1)
     def_list.print_rectangle(img2,img2_posi,match_loc,(255,0,0),dir1)
 
-    #アフィン変換
+    #アフィン変換と変換後の画像生成
     affine_transform(img1_pil,img2_pil,img1_posi,img2_posi,match_loc,dir2)
     
