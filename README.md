@@ -12,3 +12,8 @@
 
 以下に画像を踏まえて結果まで載せています.
 [テンプレートマッチングを用いた画像レジストレーションをした](https://qiita.com/21_kar1n/items/31bbd221e7aa603bc586)
+
+【使用方法】
+```python:
+$ python3 main.py -im1 <img1.png> -im2 <img2.png>
+```
